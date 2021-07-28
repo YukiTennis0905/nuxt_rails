@@ -13,4 +13,4 @@ RUN apt-get update -qq && apt-get install -y build-essential nodejs
 
 RUN bundle install
 
-ADD . /app
+COPY . /app
